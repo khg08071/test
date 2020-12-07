@@ -1,0 +1,5 @@
+<properties>
+  <sonar.projectKey>khg08071_test</sonar.projectKey>
+  <sonar.organization>khg08071</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
