@@ -1,5 +1,11 @@
-<properties>
-  <sonar.projectKey>khg08071_test</sonar.projectKey>
-  <sonar.organization>khg08071</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+plugins {
+  id "org.sonarqube" version "3.0"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "khg08071_test1"
+    property "sonar.organization", "khg08071"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
